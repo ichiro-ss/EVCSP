@@ -1,5 +1,5 @@
 # EVCSP
-This repository contains the instances used for electric vehicle charging scheduling problem presented at paper "Electric Vehicle Charging Scheduling Problem: ___".
+This repository contains the instances used for electric vehicle charging scheduling problem presented at paper "Evaluation of metaheuristic algorithms for the electric vehicle charging scheduling problem.".
 
 This research was done by:
 
