@@ -10,8 +10,8 @@ This research was done by:
 
 ## Instances Description
 An instance represents charging demands and it was generated as described [below](#Instances). All instances files are `.txt` files. Each name and following datas represents:
-- We have 'the instance name' at the begining.
-- The value under 'vehicles' shows the number of vehicles. Similarly, the number of charging stations(CS) as 'stations' and charging outlets(CO) as 'outlets'.
+- We have `the instance name` at the begining.
+- The value under `vehicles` shows the number of vehicles. Similarly, the number of charging stations(CS) as `stations` and charging outlets(CO) as `outlets`.
 - Matrix forrowing `distances` gives the distance between each EV and CS. Array is the vehicle and row is the CS.
 - Column `max_distances` shows the maximum travel distances for each EVs.
 - Matrix `arrive_time` displays the arrival time. Array is the vehicle and row is the CS.
