@@ -9,7 +9,7 @@ This research was done by:
 
 
 ## Instances Description
-An instance represents charging demands and it was generated as described [below](#instances-generation). All instances files are `.txt` files. Each name and following datas represents:
+An instance represents charging demands and it was generated as described [below](#Instances). All instances files are `.txt` files. Each name and following datas represents:
 - We have 'the instance name' at the begining.
 - The value under 'vehicles' shows the number of vehicles. Similarly, the number of charging stations(CS) as 'stations' and charging outlets(CO) as 'outlets'.
 - Matrix forrowing `distances` gives the distance between each EV and CS. Array is the vehicle and row is the CS.
@@ -19,10 +19,10 @@ An instance represents charging demands and it was generated as described [below
 - Column `already_que_time` gives finish time of already queing EVs for each CO.
 
 
-## Instanes
+## Instances
 
 | File                  |Number of vehicles|Number of CSs|Number of COs|Distances|Velocities|Charging rates|
-|:----------------------|:-----------------|:------------|:------------|:--------|:---------|:------------:|
+|:----------------------|:----------------:|:-----------:|:-----------:|:-------:|:--------:|:------------:|
 |n100ld1_20v2_3e_e25_30c|               100|           20|            2|     1-20|      2-3e|    0.25-0.30c|
 |n100ld1_20v2_3e_e50_55c|               100|           20|            2|     1-20|      2-3e|    0.50-0.55c|
 |n100ld1_20v5_6e_e25_30c|               100|           20|            2|     1-20|      5-6e|    0.25-0.30c|
